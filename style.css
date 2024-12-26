@@ -42,11 +42,11 @@ body {
 }
 
 header {
-  background: url('/images/xmas.png');
   height: 100vh;
   background-size: cover;
   background-position: center;
   color: #fff;
+  position: relative;
 }
 
 nav {
@@ -54,6 +54,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 10px 20px;
+  width: 100%;
   /* background-color: rgba(255, 255, 255, 0.1); */
 }
 
@@ -72,17 +73,30 @@ nav {
   font-size: 20px;
 }
 
+.xmas-image{
+  width: 100%;
+}
+
+.xmas-image img{
+  width: 100%;
+}
+
 .uakyt-zhasau {
-  position: relative;
+  position: absolute;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 80px;
+  width: 100%;
+  padding-top: 180px;
+}
+.nav{
+  position: absolute;
+  top: 0;
 }
 
 .uakyt {
-  position: relative;
   display: block;
   padding: 60px 30px;
 }
