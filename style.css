@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive;
+}
+
+body {
+  height: 2000px;
+}
+
+.top-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    background-color: white;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    z-index: 3;
+}
+
+
+
+.snowy {
+  position: absolute;
+  top: -10px;
+  width: 5px;
+  height: 5px;
+  background: white;
+  border-radius: 50%;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+header {
+  background: url('/images/xmas.jpeg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.batyrmalar {
+  display: flex;
+  column-gap: 200px;
+}
+
+.batyrma {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.uakyt-zhasau {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 80px;
+}
+
+.uakyt {
+  position: relative;
+  display: block;
+  padding: 60px 30px;
+}
+
+.uakyt h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Caveat", serif;
+}
+
+.taimer-zhasau {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.taimer {
+  padding: 20px;
+  margin: 20px;
+}
+
+.taimer p {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.taimer-zhasau h2 {
+  font-size: 33px;
+}
+
+main {
+  background: url("images/santaa.jpg") no-repeat center top;
+  background-size: auto;
+  padding-top: 200px;
+  text-align: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.tilder-section {
+  display: flex;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.barlyq {
+  /* padding: 100px;
+    margin-bottom: 20px;
+    margin: 200px; */
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 400px;
+  margin-top: 300px;
+  background-color: rgb(198, 10, 10);
+}
+
+.barlyq h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Caveat", serif;
+  color: #fff;
+}
+
+#lapa {
+  position: absolute;
+  top: 175px;
+  left: 238px;
+  z-index: 4;
+}
+
+#lapa2 {
+  position: absolute;
+  top: 168px;
+  right: 235px;
+  z-index: 4;
+}
+
+.suretter {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.suret {
+  text-align: center;
+}
+
+.suret img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.barlyq p {
+  color: #fff;
+  font-size: 25px;
+}
+
+.gramota h1 {
+  text-align: center;
+  color: rgb(198, 10, 10);
+}
+
+.gramota img {
+  width: 800px;
+  height: auto;
+  padding: 30px;
+}
+
+.title {
+  margin-bottom: 320px;
+  margin-top: 50px;
+}
+
+.snowman {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 1710px;
+  left: 370px;
+}
+
+.english{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.english img{
+    width: 100%;
+    max-width: 1300px;
+    
+}
+
+
+.english h2{
+   margin-top: 150px;
+
+    
+}
+
+.train{
+    width: 800px;
+}
+
+video{
+    position: absolute;
+    top: 535px;
+    left: 738px;
+    transform: translate(-50%, -50%);
+    width: 560px;
+    height: 450px;
+}
+
+.quttyqtaý img{
+    width: 100%;
+}
+
+
+
+
+
+footer {
+  background-color: rgb(198, 10, 10) ;
+  padding: 30px;
+  border-top: 3px solid #ddd;
+}
+
+.footer-jet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-sabaq {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px;
+}
+
+.footer-sabaq h3 {
+  color: #333;
+}
+
+.footer-sabaq ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-rek {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  min-width: 200px;
+  color: #fff;
+}
+
+.footer-tel {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px;
+  text-align: right;
+}
+
+.footer-tel h3{
+    color: #333;
+}
+
+.footer-tel p{
+    font-size: 14px; 
+    color: #fff;
+}
+
+
