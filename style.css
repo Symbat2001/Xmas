@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Comic Sans MS", cursive;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,8 +23,6 @@ body {
     padding: 10px;
     z-index: 3;
 }
-
-
 
 .snowy {
   position: absolute;
@@ -58,8 +57,12 @@ nav {
   /* background-color: rgba(255, 255, 255, 0.1); */
 }
 
-.logo:hover {
-  transform: scale(1.2);
+.logo img{
+  width: 110px;
+}
+
+.logo:hover{
+  transform:scale(1.2);
 }
 
 .batyrmalar {
@@ -91,6 +94,7 @@ nav {
   width: 100%;
   padding-top: 180px;
 }
+
 .nav{
   position: absolute;
   top: 0;

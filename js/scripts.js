@@ -39,4 +39,11 @@ function taimer() {
 setInterval(taimer, 1000)
 
 
-
+const silteme = document.getElementById("silteme");
+window.onscroll(()=>{
+    if(document.body.scrollTop >200|| document.documentElement.scrollTop>200){
+        silteme.style.opacity='1';
+    }else{
+        silteme.style.opacity="0";
+    }
+});
